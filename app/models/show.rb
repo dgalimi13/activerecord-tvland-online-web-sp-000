@@ -6,7 +6,7 @@ class Show < ActiveRecord::Base
     self.actors.collect do |actor|
       actor.first_name + " " + actor.last_name
     
-   
+   end
   end 
   
 end
