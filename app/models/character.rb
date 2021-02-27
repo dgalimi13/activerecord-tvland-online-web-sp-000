@@ -4,7 +4,7 @@ class Character < ActiveRecord::Base
   
   def say_that_thing_you_say
     #binding.pry
-    self.catchphrase.split(":")[0]
+    self.catchphrase
   end 
   
 end
